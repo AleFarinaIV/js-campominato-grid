@@ -17,7 +17,10 @@ const button = document.getElementById('start')
 const grid = document.getElementById('field')
 
 //Creo un evento click per il bottone che andrà a generare il tutto
-button.addEventListener('click', function handlerClick(event) {
+button.addEventListener('click', function() /*handlerClick(event)*/ {
+
+    // svuotare la griglia per ricominciare
+    grid.innerHTML = '';
     
     // utilizzo un ciclo FOR di 100 iterazioni per creare la griglia di gioco 10x10
     for (let i = 0; i < 100; i++) {
@@ -40,5 +43,5 @@ button.addEventListener('click', function handlerClick(event) {
             console.log(this.innerText)
         })
     }
-    event.target.removeEventListener('click', handlerClick);
+    // event.target.removeEventListener('click', handlerClick);
 })
