@@ -16,3 +16,24 @@ Ad esempio:
 Di cosa ho bisogno per generare i numeri?
 Proviamo sempre prima con dei console.log() per capire se stiamo ricevendo i dati giusti.
 Le validazioni e i controlli possiamo farli anche in un secondo momento.
+
+# Scomposizione del problema
+
+Dichiaro una variabile per il bottone e lo recupero dal dom tramite l'ID
+
+Dichiaro una variabile per la griglia e recupero l'elemento dal dom tramite l'ID
+
+Creo un evento click per il bottone che andrà a generare il tutto
+
+    utilizzo un ciclo FOR di 100 iterazioni per creare la griglia di gioco 10x10
+
+        dichiaro una variabile per la creazione del singolo quadrato
+
+        inserisco il numero progressivo nel quadrato
+
+        appendo il quadrato all'interno della griglia
+
+        creo un evento click per il quadrato creato
+            il quadrato selezionato dall'utente dovrà cambiare colore al momento del click
+            console.log (numero della cella selezionata)
+
