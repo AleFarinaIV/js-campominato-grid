@@ -37,3 +37,10 @@ Creo un evento click per il bottone che andrà a generare il tutto
             il quadrato selezionato dall'utente dovrà cambiare colore al momento del click
             console.log (numero della cella selezionata)
 
+Definisco la funzione che creerà i quadrati
+
+    dichiaro una variabile per creare un elemento all'interno del DOM
+
+    assegno la classe square all'elemento creato
+
+    restituisco il quadrato contenuto nella variabile creata precedentemente
