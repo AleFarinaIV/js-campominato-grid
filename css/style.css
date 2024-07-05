@@ -17,7 +17,7 @@ header {
 }
 
 button {
-    background-color: navy;
+    background-color: rgb(13, 13, 80);
     color: white;
     border: none;
     display: flex;

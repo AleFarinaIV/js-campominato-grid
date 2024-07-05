@@ -30,5 +30,10 @@ button.addEventListener('click', function() {
 
         // appendo il quadrato all'interno della griglia
         grid.append(fieldSquare)
+
+        // creo un evento click per il quadrato creato
+        fieldSquare.addEventListener('click', function () {
+            
+        })
     }
 })
