@@ -15,3 +15,12 @@ const button = document.getElementById('start')
 
 // Dichiaro una variabile per la griglia e recupero l'elemento dal dom tramite l'ID
 const grid = document.getElementById('field')
+
+//Creo un evento click per il bottone che andrà a generare il tutto
+button.addEventListener('click', function() {
+    
+    // utilizzo un ciclo FOR di 100 iterazioni per creare la griglia di gioco 10x10
+    for (let i = 0; i < 100; i++) {
+        
+    }
+})
