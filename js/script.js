@@ -9,3 +9,6 @@ function createSquare(){
     // restituisco il quadrato contenuto nella variabile creata precedentemente
     return currentElement
 }
+
+// Dichiaro una variabile per il bottone e lo recupero dal dom tramite l'ID
+let button = document.getElementById('start')
