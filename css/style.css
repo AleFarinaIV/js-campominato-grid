@@ -8,6 +8,22 @@ main {
     background-color: aquamarine;
 }
 
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+.flex-align-size {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+} 
 
 #field {
     max-width: 1000px;
