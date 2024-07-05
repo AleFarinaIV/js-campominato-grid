@@ -37,6 +37,7 @@ button.addEventListener('click', function() {
             /*il quadrato selezionato dall'utente dovrà cambiare colore,
             al momento del click aggiungo/tolgo la classe selected*/
             this.classList.toggle('selected')
+            console.log(this.innerText)
         })
     }
 })
