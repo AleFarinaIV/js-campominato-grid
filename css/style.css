@@ -12,7 +12,19 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 10px 10px;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+button {
+    background-color: navy;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 12px;
+    border-radius: 58px 26px;
 }
 
 .flex-align-size {
