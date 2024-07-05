@@ -11,4 +11,7 @@ function createSquare(){
 }
 
 // Dichiaro una variabile per il bottone e lo recupero dal dom tramite l'ID
-let button = document.getElementById('start')
+const button = document.getElementById('start')
+
+// Dichiaro una variabile per la griglia e recupero l'elemento dal dom tramite l'ID
+const grid = document.getElementById('field')
