@@ -21,6 +21,8 @@ button.addEventListener('click', function() {
     
     // utilizzo un ciclo FOR di 100 iterazioni per creare la griglia di gioco 10x10
     for (let i = 0; i < 100; i++) {
-        
+
+        // dichiaro una variabile per la creazione del singolo quadrato
+        let fieldSquare = createSquare()
     }
 })
