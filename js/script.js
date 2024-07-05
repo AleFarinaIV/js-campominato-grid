@@ -24,5 +24,11 @@ button.addEventListener('click', function() {
 
         // dichiaro una variabile per la creazione del singolo quadrato
         let fieldSquare = createSquare()
+
+        // inserisco il numero progressivo nel quadrato
+        fieldSquare.innerText = i + 1
+
+        // appendo il quadrato all'interno della griglia
+        grid.append(fieldSquare)
     }
 })
