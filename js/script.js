@@ -33,7 +33,10 @@ button.addEventListener('click', function() {
 
         // creo un evento click per il quadrato creato
         fieldSquare.addEventListener('click', function () {
-            
+
+            /*il quadrato selezionato dall'utente dovrà cambiare colore,
+            al momento del click aggiungo/tolgo la classe selected*/
+            this.classList.toggle('selected')
         })
     }
 })
